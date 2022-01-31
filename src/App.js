@@ -74,6 +74,14 @@ function App({user, setUser}) {
     });
   }
 
+  if (!user) {
+    return (
+        <div>
+          <h1>Sign In to start chatting...</h1>
+        </div>
+    );
+  }
+
   return (
     <div style={{backgroundColor:"#dadbd3"}}>
       <Login user={user} setUser={setUser} />
