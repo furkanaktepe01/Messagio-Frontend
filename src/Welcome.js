@@ -5,7 +5,7 @@ const Welcome = ({user, setUser}) => {
 
     return (
         <div>
-            Welcome
+            Messagio App
             <Login user={user} setUser={setUser} />
         </div>
     )
